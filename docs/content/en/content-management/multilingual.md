@@ -86,7 +86,7 @@ HUGO_DISABLELANGUAGES=" " hugo server
 
 ### Configure Multilingual Multihost
 
-From **Hugo 0.31** we support multiple languages in a multihost configuration. See [this issue](https://github.com/gohugoio/hugo/issues/4027) for details.
+Since **Hugo 0.31** we support multiple languages in a multihost configuration. See [this issue](https://github.com/gohugoio/hugo/issues/4027) for details.
 
 This means that you can now configure a `baseURL` per `language`:
 
@@ -306,7 +306,7 @@ Hugo uses [go-i18n][] to support string translations. [See the project's source 
 Translations are collected from the `themes/<THEME>/i18n/` folder (built into the theme), as well as translations present in `i18n/` at the root of your project. In the `i18n`, the translations will be merged and take precedence over what is in the theme folder. Language files should be named according to [RFC 5646][] with names such as `en-US.toml`, `fr.toml`, etc.
 
 {{% note %}}
-From **Hugo 0.31** you no longer need to use a valid language code. It _can be_ anything.
+Since **Hugo 0.31** you no longer need to use a valid language code. It _can be_ anything.
 
 See https://github.com/gohugoio/hugo/issues/3564
 
